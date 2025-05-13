@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona 8 Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Zona 8 Music</h1>
+    </header>
+
+    <nav>
+        <button id="menu-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <div id="menu" class="menu-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
+            <a href="#acerca-de-nosotros">Acerca de Nosotros</a>
+            <a href="#tipos">Tipos de Producción</a>
+            <a href="#niveles">Niveles de Producción</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container" id="inicio">
+            <h2>Producción Musical</h2>
+            <p>En esta sección mostramos un equipo de producción de alta calidad.</p>
+            <p>Buscamos eficacia al momento de mezclar y aprovechar el tiempo al máximo.</p>
+            <p>Zona 8 es una de las mejores disqueras actualmente.</p>
+            <img src="imagen2jesu.jpg" alt="Estudio de Producción">
+        </section>
+
+        <section class="container">
+            <h2>Sueños Rotos</h2>
+            <p>Mis sueños en la música estuvieron a punto de llegar a su fin debido a una gran frustración.</p>
+            <p>Se le conoce como frustración musical: cuando sientes que tu carrera no despega y pierdes la motivación.</p>
+            <p>Sin embargo, tengo dos angelitos muy especiales, y uno de ellos es mi abuelo.</p>
+            <p>Él me aconsejó y me motivó a seguir luchando por mis sueños. Cuando no tenía instrumentos, buscó la manera de regalarme uno para verme feliz.</p>
+            <p>En la vida, muchas veces ni tu propio padre te ayuda... pero solo tú decides si rendirte o seguir adelante.</p>
+            <img src="IMG-20240701-WA0010.jpg" alt="Apoyo familiar">
+        </section>
+
+        <section class="container" id="sobre-nosotros">
+            <h2>Historia y Esperanza</h2>
+            <p>Esta es la historia de un niño lleno de sueños, que nunca se ha rendido.</p>
+            <p>Ha luchado contra todos los obstáculos posibles, pero siempre mantiene viva la esperanza de alcanzar el éxito.</p>
+            <img src="18 Music Room Ideas with a Tech Aesthetic That'll Make You Drool.jpeg" alt="Niño soñador">
+        </section>
+
+        <section class="container" id="acerca-de-nosotros">
+            <h2>Acerca de Nosotros</h2>
+            <p>Zona 8 Music nace del corazón y la lucha de un joven soñador que, a pesar de venir desde abajo, nunca dejó que las circunstancias definieran su destino.</p>
+            <p>Creció entre carencias, pero con el alma llena de ritmo y una visión clara: vivir de la música y ayudar a otros a hacerlo también.</p>
+            <p>Sin estudios formales ni equipos de lujo, empezó con lo que tenía: su creatividad, su voz y muchas ganas. Hoy, esta productora es símbolo de talento emergente, de lucha constante y de calidad sonora.</p>
+            <p>Buscamos impulsar artistas nuevos, crear sonidos auténticos y dejar huella en la industria musical.</p>
+            <p><strong>En Zona 8 no solo producimos música... producimos futuro.</strong></p>
+            <img src="imagen2jesu.jpg" alt="">
+        </section>
+
+        <section class="container" id="tipos">
+            <h2>Tipos de Producción</h2>
+            <ul>
+                <li><strong>🎧 Producción Instrumental:</strong> Beats personalizados en géneros como reguetón, trap, hip-hop, y más.</li>
+                <li><strong>🎤 Grabación Vocal Profesional:</strong> Cabinas acústicas y micrófonos de alta fidelidad.</li>
+                <li><strong>🎚️ Mezcla y Masterización:</strong> Para un sonido nítido y profesional, listo para cualquier plataforma.</li>
+                <li><strong>📀 Producción de EPs y Álbumes:</strong> Desarrollo de proyectos musicales completos con identidad visual.</li>
+                <li><strong>📹 Producción Audiovisual:</strong> Videoclips, visualizers y contenido para redes.</li>
+                <img src="imagen3.jpg" alt=" estilo de producciones">
+            </ul>
+        </section>
+
+        <section class="container" id="niveles">
+            <h2>Niveles de Producción</h2>
+            <ul>
+                <li><strong>🔰 Nivel Básico:</strong> Beat personalizado, grabación vocal y mezcla simple.</li>
+                <li><strong>🚀 Nivel Intermedio:</strong> Beats más complejos, mezcla y masterización estándar.</li>
+                <li><strong>👑 Nivel Premium:</strong> Producción avanzada, masterización pro y estrategia de lanzamiento.</li>
+                <li><strong>🌍 Nivel Artista:</strong> Producción integral, marca personal y promoción digital.</li>
+                <img src="imagen4.jpg" alt="estilo de producciones">
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="social-icons">
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p>© 2025 Proyecto de Ingeniería | Diseñado por Jesus Figueroa</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+    
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            toggle.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>
